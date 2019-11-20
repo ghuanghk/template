@@ -74,6 +74,12 @@ export const constantRouterMap = [
         name: 'Tree3',
         component: () => import('@/views/tree/index'),
         meta: { title: 'Tree', icon: 'tree' }
+      },
+      {
+        path: 'add',
+        name: 'add',
+        component: () => import('@/views/tree/index'),
+        meta: { title: 'Tree', icon: 'tree' }
       }
     ]
   },
